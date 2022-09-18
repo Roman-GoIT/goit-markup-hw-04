@@ -164,9 +164,14 @@ img {
 /* Шапка */
 
 .main {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--main-bg-cl);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(196, 196, 196, 1)), url(../images/bgnd1.png);
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -323,6 +328,12 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--grey-txt-cl);
+}
+
+/* Socials */
+
+.socials-list {
+  1fgb
 }
 
 /* Підвал */
