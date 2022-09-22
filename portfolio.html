@@ -42,12 +42,19 @@
         <!--Contacts-->
         <ul class="contacts contacts-list">
           <li class="contact-link">
-            <a href="mailto:info@devstudio.com" class="contact"
-              >info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="contact">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="contact-link">
-            <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contact">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./images/icons.svg#phone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
      </div>
@@ -197,30 +204,95 @@
         </div>
       </section>
     </main>
+    <!--Підвал-->
     <footer class="footer">
       <div class="container ftr-container">
-        <a href="logo" class="logo footer-logo">Web<span class="logo-clr">Studio</span></a>
-        <address class="contacts-address">
-          <ul class="list-footer">
-            <li class="list-item list-item-ft">
+        <div class="footer-container">
+          <a href="logo" class="logo footer-logo"
+            >Web<span class="logo-clr">Studio</span></a
+          >
+          <address class="contacts-address">
+            <ul class="list-footer">
+              <li class="list-item list-item-ft">
+                <a
+                  href="https://goo.gl/maps/8jvWmnCJK6FQUm2Y7"
+                  class="link-footer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="list-item list-item-ft">
+                <a href="mailto:info@devstudio.com" class="link-detail"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="list-item list-item-ft">
+                <a href="tel:+380961111111" class="link-detail"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!--Footer Socials-->
+        <div class="footer-socials">
+          <h2 class="footer-socials-title">приєднуйтесь</h2>
+          <ul class="ftr-socials-list list">
+            <li class="ftr-social-item">
               <a
-                href="https://goo.gl/maps/8jvWmnCJK6FQUm2Y7"
-                class="link-footer" target="_blank" rel="noopener noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26</a
+                class="ftr-social-link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
               >
+                <svg class="ftr-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="list-item list-item-ft">
-              <a href="mailto:info@devstudio.com" class="link-detail"
-                >info@devstudio.com</a
+            <li class="ftr-social-item">
+              <a
+                class="ftr-social-link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
               >
+                <svg class="ftr-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="list-item list-item-ft">
-              <a href="tel:+380961111111" class="link-detail"
-                >+38 096 111 11 11</a
+            <li class="ftr-social-item">
+              <a
+                class="ftr-social-link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
               >
+                <svg class="ftr-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ftr-social-item">
+              <a
+                class="ftr-social-link"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <svg class="ftr-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
