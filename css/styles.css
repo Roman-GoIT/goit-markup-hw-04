@@ -421,6 +421,7 @@ img {
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+  height: 92px;
 }
 
 .clients-link:hover,
